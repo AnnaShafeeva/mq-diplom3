@@ -79,7 +79,7 @@ button {
     width: 24px;
     height: 24px;
 
-    background-image: url("/icon/form-x.svg");
+    background-image: url("../icon/form-x.svg");
     cursor: pointer;
 }
 
@@ -129,7 +129,7 @@ button {
     border: 1px solid #f4f7f6;
 
     background-color: #f4f7f6;
-    background-image: url("/icon/form-arrows.svg");
+    background-image: url("../icon/form-arrows.svg");
     background-repeat: no-repeat;
     background-size: 11px;
     background-position: right 10px center;
@@ -176,14 +176,14 @@ textarea {
     margin-right: 5px;
 
     vertical-align: middle;
-    background-image: url("/icon/form-empty-circle.svg");
+    background-image: url("../icon/form-empty-circle.svg");
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center center;
 }
 
 .input-radio__control:checked+.input-radio__text::before {
-    background-image: url("/icon/form-circle.svg");
+    background-image: url("../icon/form-circle.svg");
 }
 
 .textarea-content {
@@ -1047,7 +1047,7 @@ textarea {
 
 }
 
-@media (max-width: 767px) and (orientation: portrait) {
+@media (max-width: 767px) {
     .title {
         padding-top: 52px;
         padding-bottom: 152px;
@@ -1176,7 +1176,7 @@ textarea {
     }
 }
 
-@media (min-width: 641px) and (max-width: 1199px) {
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
     .trends-posts {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 19px;
