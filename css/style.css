@@ -134,8 +134,10 @@ button {
     background-size: 11px;
     background-position: right 10px center;
 
-    font-size: 14px;
-    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Open Sans Regular", sans-serif;
     color: #333333;
 }
 
@@ -145,15 +147,6 @@ button {
 
 .select:focus {
     outline: 1px solid #b59f5b;
-}
-
-option,
-textarea {
-    font-size: 13px;
-    line-height: 1.47;
-    font-weight: normal;
-    font-style: normal;
-    font-family: "Open Sans Regular", sans-serif;
 }
 
 .radio-content {
@@ -201,6 +194,14 @@ textarea {
 
 .textarea-content:focus {
     outline: 1px solid #b59f5b;
+}
+
+.textarea-content::placeholder {
+    font-size: 13px;
+    line-height: 1.47;
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Open Sans Regular", sans-serif;
 }
 
 .button-submit {
