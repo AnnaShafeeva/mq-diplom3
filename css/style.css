@@ -382,6 +382,7 @@ button {
     box-sizing: border-box;
     flex-direction: column;
     align-items: start;
+    flex-grow: 1;
     padding: 38px 10px 35px 36px;
     border: 2px solid #b59f5b;
 }
@@ -1233,6 +1234,10 @@ button {
         padding-top: 26px;
         padding-left: 17px;
     }
+
+    .trends-post-name {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
@@ -1240,7 +1245,7 @@ button {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .content {
-        flex-wrap: wrap;
+    .trends-post-name {
+        font-size: 16px;
     }
 }
