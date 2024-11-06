@@ -79,7 +79,7 @@ button {
     width: 24px;
     height: 24px;
 
-    background-image: url("../icon/form-x.svg");
+    background-image: url("../svg/form-x.svg");
     cursor: pointer;
 }
 
@@ -129,7 +129,7 @@ button {
     border: 1px solid #f4f7f6;
 
     background-color: #f4f7f6;
-    background-image: url("../icon/form-arrows.svg");
+    background-image: url("../svg/form-arrows.svg");
     background-repeat: no-repeat;
     background-size: 11px;
     background-position: right 10px center;
@@ -169,14 +169,14 @@ button {
     margin-right: 5px;
 
     vertical-align: middle;
-    background-image: url("../icon/form-empty-circle.svg");
+    background-image: url("../svg/form-empty-circle.svg");
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center center;
 }
 
 .input-radio__control:checked+.input-radio__text::before {
-    background-image: url("../icon/form-circle.svg");
+    background-image: url("../svg/form-circle.svg");
 }
 
 .textarea-content {
@@ -622,7 +622,7 @@ button {
     width: 47px;
 
     background-size: 18px;
-    background-image: url("../icon/search.svg");
+    background-image: url("../svg/search.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #b59f5b;
@@ -889,7 +889,7 @@ button {
     display: block;
     box-sizing: border-box;
 
-    background-image: url("../icon/001-dribbble.svg");
+    background-image: url("../svg/001-dribbble.svg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -898,7 +898,7 @@ button {
     display: block;
     box-sizing: border-box;
 
-    background-image: url("../icon/002-pinterest.svg");
+    background-image: url("../svg/002-pinterest.svg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -907,7 +907,7 @@ button {
     display: block;
     box-sizing: border-box;
 
-    background-image: url("../icon/003-tumblr.svg");
+    background-image: url("../svg/003-tumblr.svg");
     background-size: cover;
     background-repeat: no-repeat;
 }
