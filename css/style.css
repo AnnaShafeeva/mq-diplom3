@@ -222,6 +222,16 @@ button {
     background-color: #323232;
 }
 
+.popup_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .title {
     position: relative;
@@ -1186,7 +1196,6 @@ button {
 
     .trends-post {
         padding: 29px 18px 12px 18px;
-        min-width: 330px;
         min-height: 204px;
         font-size: 17px;
     }
@@ -1204,14 +1213,15 @@ button {
     }
 }
 
-@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+@media (min-width: 923px) and (max-width: 1199px) and (orientation: landscape) {
     .trends-posts {
         grid-template-columns: repeat(4, 1fr);
     }
+}
 
-    .trends-post {
-        min-width: 0;
-        min-height: 0;
+@media (min-width: 641px) and (max-width: 922px) and (orientation: landscape) {
+    .trends-posts {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
