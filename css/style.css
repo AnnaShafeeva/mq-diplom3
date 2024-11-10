@@ -1060,6 +1060,11 @@ button {
 }
 
 @media (max-width: 767px) {
+    .popup {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     .title {
         padding-top: 52px;
         padding-bottom: 152px;
